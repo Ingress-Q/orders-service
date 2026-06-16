@@ -123,7 +123,7 @@ jobs:
             - name: Update Image Tag
               run: |
                 sed -i "s/tag:.*/tag: ${GITHUB_SHA}/" \
-                gitops-platform/environments/dev/order-service-values.yaml
+                gitops-platform/environments/dev/orders-service-values.yaml
 
             # ----------------------------
             # Commit GitOps Change                                                                                                                      
