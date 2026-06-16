@@ -83,7 +83,7 @@ jobs:
 
             # ----------------------------
             # Trivy Scan
-            # ----------------------------
+            # ---------------------------
             - name: Trivy Scan
               uses: aquasecurity/trivy-action@master
               with:
